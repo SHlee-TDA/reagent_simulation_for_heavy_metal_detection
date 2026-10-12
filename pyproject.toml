@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pfid"
+name = "rids"
 version = "0.1.0"
 description = "Property-space inverse design of reagent recipes for paper-wicking heavy-metal classification"
 requires-python = ">=3.10"

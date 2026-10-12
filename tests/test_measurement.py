@@ -1,5 +1,5 @@
 import numpy as np
-from pfid import measurement as ms
+from rids import measurement as ms
 
 
 def test_fit_lw_recovers_coefficient():

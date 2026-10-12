@@ -1,4 +1,4 @@
-# CLAUDE.md — pfid
+# CLAUDE.md — rids
 
 Read this first. It records what has been agreed, so a new session can start
 without the earlier conversation.
@@ -75,7 +75,7 @@ Follow the proposal (Sec. 2.0-2.2, 3) and the strategy doc (Sec. 2). Do not rena
 - **Species:** As(III), As(V), Cd, Co, Cr(III), Cr(VI) + not added. jiyou's grouping =
   label pooling (As = III or V, Cr = III or VI), not mixing samples.
   Staged task: detection -> speciation -> level vs anchor.
-- **Anchors are parameters** (`pfid.config.Stage1Config`). Run order agreed on 2026-10-12:
+- **Anchors are parameters** (`rids.config.Stage1Config`). Run order agreed on 2026-10-12:
   **jiyou_surface first** (As 10, Cd 50, Cr 50 ug/L; Co 10 by choice), report, then
   KR_drinking (Cd 5) and WHO (Cd 3).
 - Defaults: alpha = 0.9, rho = 2, R = 1, n_ctrl = 2, mix 1:1, bound fraction 1.
@@ -88,14 +88,14 @@ Pooled ANOVA over 41 experiments: F = 0.72 (no condition effect in any of 7 feat
 
 ## Current state and next step
 
-- P0 done (calibration). Stage-1a amplification table implemented (`pfid.stage1a`).
+- P0 done (calibration). Stage-1a amplification table implemented (`rids.stage1a`).
 - **Next: P1** with `configs/jiyou_surface.json`: solve the target-response problem
   (strategy doc 4.4) per stage, report, then rerun with the other anchor configs.
 - Then P2 (stage 1b bounds, falsification test 1), P3 (stage 2), P4 (screening loop).
 
 ## Repository conventions
 
-- `src/pfid/`: library. `scripts/`: entry points. `configs/`: run configs (JSON).
+- `src/rids/`: library. `scripts/`: entry points. `configs/`: run configs (JSON).
 - Every run writes `runs/<date>_<stage>_<config>/` with config.json, results.json,
   meta.json (git hash). Never overwrite a past run.
 - `tests/` must keep reproducing the numbers quoted in the docs; update tests and

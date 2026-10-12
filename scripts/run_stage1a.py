@@ -7,8 +7,8 @@ import subprocess
 import sys
 from pathlib import Path
 
-from pfid.config import load_config
-from pfid.stage1a import amplification_table
+from rids.config import load_config
+from rids.stage1a import amplification_table
 
 ROOT = Path(__file__).resolve().parents[1]
 

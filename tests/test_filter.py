@@ -1,5 +1,5 @@
-from pfid.config import Stage1Config
-from pfid.stage2.filter import reasons_to_exclude
+from rids.config import Stage1Config
+from rids.stage2.filter import reasons_to_exclude
 
 
 def test_filter_excludes_hazard_and_price():

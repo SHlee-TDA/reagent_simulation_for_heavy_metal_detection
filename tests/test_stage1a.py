@@ -1,7 +1,7 @@
 """Reproduce the strategy-doc Section 4 numbers (KR drinking-water anchors)."""
 import pytest
-from pfid.config import load_config
-from pfid.stage1a import amplification_table
+from rids.config import load_config
+from rids.stage1a import amplification_table
 
 
 def test_kr_drinking_table():

@@ -13,7 +13,7 @@ Internal, unpublished data: keep this repository private.
 | `../data/raw/legacy/20260828_AIC_combined.csv` | Legacy windowed-slope table (Slope, WindowEdge, IC, Adjusted_Slope) | lab pipeline output |
 | `../data/derived/video_lw_coefficients.csv` | Our re-analysis: full-curve LW coefficient b for every leg of 1,039 videos (42 experiments, 2026-03 to 2026-08) | computed 2026-10-12 from the raw flow profiles in Drive |
 | `../data/derived/per_experiment_summary.csv` | Per-experiment medians: onset, b, front at 10 s and 60 s, extrapolated frames to 24 mm | same |
-| `../data/derived/effect_scale_2026-10-12.json` | Effect-scale posterior (Bayes factor ~1:170 for the v2 prior vs no effect) | `pfid.calibration` |
+| `../data/derived/effect_scale_2026-10-12.json` | Effect-scale posterior (Bayes factor ~1:170 for the v2 prior vs no effect) | `rids.calibration` |
 
 Raw videos (about 123 MB each) stay in the lab Drive and are never committed.
 

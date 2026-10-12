@@ -1,6 +1,6 @@
 """Effect-scale calibration: the data favour small effects (proposal 5.0)."""
 import numpy as np
-from pfid.calibration import log_marginal
+from rids.calibration import log_marginal
 
 
 def test_effect_scale_small():

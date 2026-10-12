@@ -1,4 +1,4 @@
-# pfid — property-space inverse design for paper-wicking heavy-metal classification
+# rids — reagent inverse design simulation: property-space inverse design for paper-wicking heavy-metal classification
 
 Paper chips classify a sample from how fast the sample–reagent mixture wicks
 (Lucas–Washburn flow coefficient k). This project finds reagent recipes that make
@@ -30,7 +30,7 @@ docs/           calibration note and links to the project documents
 references/     slides, chip geometry, lab processing notebook (see references/README.md)
 runs/           one folder per run: config, results, git hash
 scripts/        entry points
-src/pfid/       measurement, config, stage1a, stage1b, stage2, design, calibration
+src/rids/       measurement, config, stage1a, stage1b, stage2, design, calibration
 tests/          reproduce the numbers quoted in the documents
 ```
 
