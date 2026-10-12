@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+.DS_Store
+# raw videos stay in the lab Drive; never commit them
+*.mp4
+*.avi
